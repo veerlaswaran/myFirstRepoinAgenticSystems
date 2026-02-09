@@ -17,7 +17,7 @@ try:
 
     if verified is not None:
         if verified and withdrawal <= balance:
-            print("Transaction successful")
+            print("Withdrawal successful")
         else:
             print("Transaction denied")
 
